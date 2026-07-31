@@ -1,555 +1,518 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="css/switcher.css"> -->
-    <link rel="stylesheet" href="rs-plugin/css/settings.css">
-    <!-- Jquery Fancybox CSS -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="screen" />
-    <link href="css/style.css" rel="stylesheet" id="colors">
-    <title>Scissors Salon | HTML Template by Medialinkers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Smile | Premium Dental Care Clinic</title>
+    <meta name="description" content="Award-winning dental care specializing in permanent implants, clear Invisalign, and stunning cosmetic smile makeovers. 0% Financing available. Book today.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header Start-->
-    <div class="custom-navbar wow fadeInDown" data-wow-duration="2s" role="navigation" id="header">
-        <div class="header-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 navbar-light">
-                        <div class="atlanta_logo"><img alt="" class="logo-default" src="images/salon_logo.png"></div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="headerLogo">
+                <h2>Dental<span>Care</span></h2>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="#services">Specialties</a>
+                <a href="#gallery">Before & After</a>
+                <a href="#doctors">Our Specialists</a>
+                <a href="#journey">Patient Journey</a>
+                <a href="#faq">FAQs</a>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+1234567890" class="phone-link btn-phone" id="phoneLinkHeader">
+                    <span class="phone-icon">📞</span> (123) 456-7890
+                </a>
+                <a href="#booking" class="btn btn-sm btn-primary" id="ctaHeader">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="trust-badge">
+                    <span class="star-rating">★★★★★</span>
+                    <span>Top-Rated Specialists • 0% Financing Available</span>
+                </div>
+                <h1 class="hero-title">Transform Your Smile. <br>Reclaim Your <span>Confidence</span>.</h1>
+                <p class="hero-subtitle">Get world-class, customized dental care from leading specialists. Specializing in single-day implants, clear Invisalign aligners, and aesthetic veneers.</p>
+                
+                <div class="hero-actions">
+                    <a href="#booking" class="btn btn-primary" id="heroPrimaryCta">Schedule My Priority Visit</a>
+                    <a href="#gallery" class="btn btn-secondary-outline" id="heroSecondaryCta">View Smile Gallery</a>
+                </div>
+
+                <div class="hero-badges">
+                    <div class="badge-item">
+                        <span class="badge-icon">🏆</span>
+                        <div>
+                            <h4>AACD Certified</h4>
+                            <p>Cosmetic Excellence</p>
+                        </div>
                     </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="navigation-wrap" id="filters">
-                            <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="#">Menu</a>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <button class="close-toggler" type="button" data-toggle="offcanvas"> <span><i class="fas fa-times-circle" aria-hidden="true"></i></span> </button>
-                                    <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-                                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a> <i class="fas fa-caret-down"></i>
-                                            <ul class="submenu">
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="services_details.html">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a> <i class="fas fa-caret-down"></i>
-                                            <ul class="submenu">
-                                                <li><a href="gallery.html">Gallery Style 01</a></li>
-                                                <li><a href="gallery_02.html">Gallery Style 02</a></li>
-                                                <li><a href="gallery_03.html">Gallery Style 03</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a> <i class="fas fa-caret-down"></i>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_grid.html">Blog Grid</a></li>
-                                                <li><a href="blog_list.html">Blog List</a></li>
-                                                <li><a href="blog_details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
+                    <div class="badge-item">
+                        <span class="badge-icon">⭐</span>
+                        <div>
+                            <h4>4.9/5 Google Rating</h4>
+                            <p>Over 1,200+ Reviews</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--Header End-->
 
-    <!-- Revolution slider start -->
-    <div class="tp-banner-container">
-        <div class="tp-banner">
-            <ul>
-                <li data-slotamount="7" data-transition="3dcurtain-horizontal" data-masterspeed="1000" data-saveperformance="on"> <img alt="" src="images/dummy.png" data-lazyload="images/slider.jpg">
-                    <div class="caption lfb large-title tp-resizeme slidertext1" data-x="left" data-y="240" data-speed="600" data-start="1600"> Welcome To </div>
-                    <div class="caption lft large-title tp-resizeme slidertext2" data-x="left" data-y="270" data-speed="600" data-start="2200"><span> Beauty Salon </span></div>
-                    <div class="caption lfb large-title tp-resizeme slidertext3" data-x="left" data-y="400" data-speed="600" data-start="2800"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
-                        tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <div class="caption lfb large-title tp-resizeme slidertext4" data-x="left" data-y="470" data-speed="600" data-start="3400"> <a href="#">Contact Us</a> </div>
-                </li>
-                <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on"> <img alt="" src="images/dummy.png" data-lazyload="images/slider2.jpg">
-                    <div class="caption lfb large-title tp-resizeme slidertext1" data-x="left" data-y="240" data-speed="600" data-start="1600"> Welcome To </div>
-                    <div class="caption lft large-title tp-resizeme slidertext2" data-x="left" data-y="270" data-speed="600" data-start="2200"><span> Beauty Salon </span></div>
-                    <div class="caption lfb large-title tp-resizeme slidertext3" data-x="left" data-y="400" data-speed="600" data-start="2800"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
-                        tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <div class="caption lfb large-title tp-resizeme slidertext4" data-x="left" data-y="470" data-speed="600" data-start="3400"> <a href="#">Contact Us</a> </div>
-                </li>
-            </ul>
+            <div class="hero-image-area">
+                <div class="hero-main-image">
+                    <!-- Glassmorphism Floating Cards -->
+                    <div class="glass-float card-top-right">
+                        <div class="pulse-indicator"></div>
+                        <div>
+                            <h4>Orthodontist On Duty</h4>
+                            <p>Routing to chair 3</p>
+                        </div>
+                    </div>
+                    <div class="glass-float card-bottom-left">
+                        <div class="stars-row">★★★★★</div>
+                        <p class="card-quote">"Pain-free and perfect results!"</p>
+                        <span>- David K.</span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- Revolution slider end -->
+    </section>
 
-    <!-- About Start -->
-    <div class="about-wrap" id="about">
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="container stats-container">
+            <div class="stat-box">
+                <h3>15K+</h3>
+                <p>Smiles Restored</p>
+            </div>
+            <div class="stat-box">
+                <h3>0%</h3>
+                <p>Financing Options</p>
+            </div>
+            <div class="stat-box">
+                <h3>Top 1%</h3>
+                <p>Invisalign Providers</p>
+            </div>
+            <div class="stat-box">
+                <h3>3D Tech</h3>
+                <p>Digital Impressions Only</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Overview -->
+    <section id="services" class="services section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about_box">
-                        <div class="title">
-                            <p>About Us</p>
-                            <h1>Our Salon is Most Popular, <span>Clean and Recommended</span> Hair Salon</h1>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh dolor, gravida faucibus dolor consectetur, pulvinar rhoncus risus. Fusce vel rutrum mi. Suspendisse pretium tellus eu ipsum pellentesque convallis. Ut mollis libero eu massa imperdiet faucibus vitae non diam. Sed egestas felis libero, ut suscipit nisl varius non. Proin eget suscipit nulla. Nulla facilisi. In hac habitasse platea dictumst. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh dolor, gravida faucibus dolor consectetur, pulvinar rhoncus risus. Fusce vel rutrum mi. Suspendisse pretium tellus eu ipsum pellentesque convallis. Ut mollis libero eu massa imperdiet faucibus vitae non diam. Sed egestas felis libero, ut suscipit nisl varius non. Proin eget suscipit nulla. Nulla facilisi. In hac habitasse platea dictumst. </p>
-                        <div class="readmore"><a href="#">Read More</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="aboutImg"><img alt="" src="images/aboutImg.png"></div>
-                </div>
+            <div class="section-header">
+                <h2>Specialist Dental Services</h2>
+                <p>We focus on high-precision, premium treatments that deliver life-changing outcomes.</p>
             </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-    <!-- Service Start -->
-    <div class="service-wrap">
-        <div class="container">
-            <div class="title">
-                <h1>Our Services</h1>
-            </div>
-            <div class="service_box">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="serviceImg"><img alt="" src="images/serviceimg01.png"></div>
-                        <h3><a href="services_details.html">HairCut <span>Styles</span></a></h3>
+            <div class="services-grid">
+                <!-- Implants Card -->
+                <div class="service-card highlight">
+                    <div class="service-icon implant-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon">
+                            <path d="M6 5C6 3 8 2 12 2C16 2 18 3 18 5C18 7 16 8 16 10C16 11.5 15 12 14 12H10C9 12 8 11.5 8 10C8 8 6 7 6 5Z" fill="var(--primary)" fill-opacity="0.1"/>
+                            <path d="M12 12V22" stroke-linecap="round"/>
+                            <path d="M10 15H14" stroke-linecap="round"/>
+                            <path d="M10 18H14" stroke-linecap="round"/>
+                            <path d="M11 21H13" stroke-linecap="round"/>
+                        </svg>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="serviceImg"><img alt="" src="images/serviceimg02.png"></div>
-                        <h3><a href="services_details.html">Perfect <span>Hairstyles</span></a></h3>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="serviceImg"><img alt="" src="images/serviceimg03.jpg"></div>
-                        <h3><a href="services_details.html">Change <span>Coloring</span></a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-    <!-- Gallery Start -->
-    <div class="gallery-wrap">
-        <div class="container-fluid">
-            <div class="title title_center">
-                <h1>Our Gallery</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery01.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery01.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery02.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery02.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery03.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery03.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery04.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery04.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery05.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery05.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery06.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery06.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery07.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery07.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="galleryImg"><img src="images/gallery08.jpg" alt="">
-                        <div class="portfolio-overley">
-                            <div class="content"> <a href="images/gallery08.jpg" class="fancybox image-link" data-fancybox="images" title="Image Caption Here"><i class="fa fa-plus" aria-hidden="true"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Gallery End -->
-
-    <!-- Expert Start -->
-    <div class="expert-wrap">
-        <div class="container">
-            <div class="title title_center">
-                <h1>Our Experts</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="experts">
-                        <div class="teamImg"><img src="images/team01.jpg" alt="">
-                            <ul class="social-icons list-inline">
-                                <!-- social-icons -->
-                                <li class="social-facebook"> <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> </li>
-                                <li class="social-twitter"> <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
-                                <li class="social-linkedin"> <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> </li>
-                                <li class="social-googleplus"> <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
-                            </ul>
-                        </div>
-                        <div class="team_content">
-                            <h5><a href="#">Jill Cortez</a></h5>
-                            <p class="category">Hair Expert</p>
-                            <!-- category -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="experts">
-                        <div class="teamImg"><img src="images/team02.jpg" alt="">
-                            <ul class="social-icons list-inline">
-                                <!-- social-icons -->
-                                <li class="social-facebook"> <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> </li>
-                                <li class="social-twitter"> <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
-                                <li class="social-linkedin"> <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> </li>
-                                <li class="social-googleplus"> <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
-                            </ul>
-                        </div>
-                        <div class="team_content">
-                            <h5><a href="#">Calvin Roy</a></h5>
-                            <p class="category">Style Expert</p>
-                            <!-- category -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="experts">
-                        <div class="teamImg"><img src="images/team03.jpg" alt="">
-                            <ul class="social-icons list-inline">
-                                <!-- social-icons -->
-                                <li class="social-facebook"> <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> </li>
-                                <li class="social-twitter"> <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
-                                <li class="social-linkedin"> <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> </li>
-                                <li class="social-googleplus"> <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
-                            </ul>
-                        </div>
-                        <div class="team_content">
-                            <h5><a href="#">Christie Pratt</a></h5>
-                            <p class="category">Nail Expert</p>
-                            <!-- category -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="experts">
-                        <div class="teamImg"><img src="images/team04.jpg" alt="">
-                            <ul class="social-icons list-inline">
-                                <!-- social-icons -->
-                                <li class="social-facebook"> <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> </li>
-                                <li class="social-twitter"> <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
-                                <li class="social-linkedin"> <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> </li>
-                                <li class="social-googleplus"> <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
-                            </ul>
-                        </div>
-                        <div class="team_content">
-                            <h5><a href="#">Ben Jonson</a></h5>
-                            <p class="category">Hair Expert</p>
-                            <!-- category -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Expert End -->
-
-    <!-- Appointment Start -->
-    <div class="appointment-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h3>Donec egestas auctor arcu tincidunt.</h3>
-                </div>
-                <div class="col-lg-4">
-                    <div class="readmore"><a href="contact.html">Book An Appointment</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment Start -->
-
-    <!-- Blog Start -->
-    <div class="blog-wrap">
-        <div class="container">
-            <div class="title title_center">
-                <h1>Our Blog</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="blogImg"><img alt="" src="images/blog01.png"></div>
-                    <div class="blog_sec">
-                        <h3><a href="blog_details.html">Praesent consequat justo ut sollicitudin molestie.</a></h3>
-                        <div class="blog_date">May 05, 2020</div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="blogImg"><img alt="" src="images/blog02.png"></div>
-                    <div class="blog_sec">
-                        <h3><a href="blog_details.html">Praesent consequat justo ut sollicitudin molestie.</a></h3>
-                        <div class="blog_date">May 05, 2020</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog Start -->
-
-    <!-- Testimonials Start -->
-    <div class="testimonials-wrap">
-        <div class="container">
-            <div class="title">
-                <p>Testimoinials</p>
-                <h1> What Our Clients Say </h1>
-            </div>
-            <ul class="owl-carousel testimonials_list unorderList">
-                <li class="item">
-                    <div class="testimonials_sec">
-                        <div class="quote_icon"><i class="fas fa-quote-left"></i></div>
-                        <div class="client_box">
-                            <div class="clientImg"><img alt="" src="images/client1.jpg"></div>
-                            <h3>Wanda Bates</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="testimonials_sec">
-                        <div class="quote_icon"><i class="fas fa-quote-left"></i></div>
-                        <div class="client_box">
-                            <div class="clientImg"><img alt="" src="images/client2.jpg"></div>
-                            <h3>Wanda Bates</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="testimonials_sec">
-                        <div class="quote_icon"><i class="fas fa-quote-left"></i></div>
-                        <div class="client_box">
-                            <div class="clientImg"><img alt="" src="images/client1.jpg"></div>
-                            <h3>Wanda Bates</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="testimonials_sec">
-                        <div class="quote_icon"><i class="fas fa-quote-left"></i></div>
-                        <div class="client_box">
-                            <div class="clientImg"><img alt="" src="images/client2.jpg"></div>
-                            <h3>Wanda Bates</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- Testimonials End -->
-
-    <!-- Contact Start -->
-    <div class="contact-wrap" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="contact_form">
-                        <div class="title">
-                            <h1>Make an Appointment</h1>
-                        </div>
-                        <p>Donec scelerisque libero eget mauris fermentum, vitae maximus mauris egestas. Sed eleifend placerat nulla vehicula odio in rhoncus.</p>
-                        <form class="form" action="https://www.medialinkers.net/demo/envato/saloon/publish/mail/mail.php">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input name="name" type="text" class="form-control" placeholder="First Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input name="name" type="text" class="form-control" placeholder="Last Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input name="email" type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input name="phone" type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="mb-3">
-                                        <textarea name="message" class="form-control" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <div class="button">
-                                            <button type="submit" class="btn primary">Book Now</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="contact_info">
-                        <div class="title">
-                            <h1>Contact <span>Information</span></h1>
-                        </div>
-                        <ul class="contact-list unorderList">
-                            <li>
-                                <div class="contact_box">
-                                    <div class="icon"> <img alt="" src="images/adress.png"> </div>
-                                    <p>Main Office <span>123 Lorem Ipsum, 32 sit Atlanta</span></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="contact_box">
-                                    <div class="icon"> <img alt="" src="images/email.png"> </div>
-                                    <p>E-mail<span> <a href="mailto:info@example.com">info@example.com</a></span></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="contact_box">
-                                    <div class="icon"> <img alt="" src="images/phone.png"> </div>
-                                    <p>Phone<span> <a href="tel:7701234567">(770) 123 4567</a></span></p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact End -->
-
-    <!-- Footer Start -->
-    <div class="footer-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer_logo"><img alt="" class="footer-default" src="images/salon_logo.png"></div>
-                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
-                </div>
-                <div class="col-lg-2 col-md-3">
-                    <h3>Quick links</h3>
-                    <ul class="footer-links">
-                        <li> <a href="index.html">Home</a></li>
-                        <li> <a href="about.html">About</a></li>
-                        <li> <a href="services.html">Services</a></li>
-                        <li> <a href="gallery.html">Gallery</a></li>
-                        <li> <a href="testimonials.html">Testimonials</a></li>
-                        <li> <a href="blog.html">Blog</a></li>
-                        <li> <a href="contact.html">Contact Us</a></li>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent, single-day tooth replacements that look, feel, and function like natural teeth. Designed for lifelong durability.</p>
+                    <ul class="service-bullets">
+                        <li>Single tooth to full-arch restorations</li>
+                        <li>High-grade biocompatible titanium</li>
+                        <li>Computer-guided digital surgery</li>
                     </ul>
+                    <a href="#booking" class="service-cta btn-service-book" data-service="implants">Book Consultation &rarr;</a>
                 </div>
-                <div class="col-lg-3 col-md-4">
-                    <h3>Opening Hours</h3>
-                    <ul class="unorderList hourswrp">
-                        <li>Monday <span>08:00 - 17:00</span></li>
-                        <li>Tuesday <span>08:00 - 17:00</span></li>
-                        <li>Wednesday <span>08:00 - 17:00</span></li>
-                        <li>Thursday <span>08:00 - 17:00</span></li>
-                        <li>Friday <span>08:00 - 17:00</span></li>
-                        <li>Saturday <span>08:00 - 17:00</span></li>
-                        <li>Sunday <span>Closed</span></li>
+
+                <!-- Invisalign Card -->
+                <div class="service-card">
+                    <div class="service-icon invisalign-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon">
+                            <path d="M3 10C5 17 19 17 21 10" stroke-linecap="round"/>
+                            <path d="M6 9.5C8 12.5 16 12.5 18 9.5" stroke-dasharray="3 3" stroke-linecap="round"/>
+                            <path d="M8 10.5H16" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Invisalign® Clear Aligners</h3>
+                    <p>Straighten your teeth comfortably and invisibly without metal brackets. Removable aligners custom-fitted to your lifestyle.</p>
+                    <ul class="service-bullets">
+                        <li>3D simulated treatment preview</li>
+                        <li>Faster treatment with SmartTrack technology</li>
+                        <li>Perfect for adults and teens</li>
                     </ul>
+                    <a href="#booking" class="service-cta btn-service-book" data-service="invisalign">Book Consultation &rarr;</a>
                 </div>
-                <div class="col-lg-3 col-md-4 offset-1">
-                    <div class="footer_info">
-                        <h3>Get in Touch</h3>
-                        <ul class="footer-adress">
-                            <li class="footer_address"> <i class="fas fa-map-signs"></i> <span>123 Lorem Ipsum, 32 sit Atlanta</span> </li>
-                            <li class="footer_email"> <i class="fas fa-envelope" aria-hidden="true"></i> <span><a href="mailto:info@example.com"> info@example.com </a></span> </li>
-                            <li class="footer_phone"> <i class="fas fa-phone-alt"></i> <span><a href="tel:7704282433"> 770-123-4567</a></span> </li>
-                        </ul>
-                        <div class="social-icons footer_icon">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-                            </ul>
+
+                <!-- Cosmetic Dentistry Card -->
+                <div class="service-card">
+                    <div class="service-icon cosmetic-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon">
+                            <path d="M7 6C7 4.5 8.5 3.5 12 3.5C15.5 3.5 17 4.5 17 6C17 9 15.5 10 15.5 12C15.5 14 14.5 15 12 15C9.5 15 8.5 14 8.5 12C8.5 10 7 9 7 6Z" fill="var(--primary)" fill-opacity="0.1"/>
+                            <path d="M19 3L17 5L19 7L21 5L19 3Z" fill="var(--accent)" stroke="none"/>
+                            <path d="M5 12L4 13L5 14L6 13L5 12Z" fill="var(--accent)" stroke="none"/>
+                        </svg>
+                    </div>
+                    <h3>Cosmetic Smile Makeover</h3>
+                    <p>A completely customized aesthetic upgrade utilizing premium porcelain veneers, composite bonding, and laser whitening.</p>
+                    <ul class="service-bullets">
+                        <li>Hand-crafted custom porcelain veneers</li>
+                        <li>Guaranteed shade matching</li>
+                        <li>Minimally invasive options</li>
+                    </ul>
+                    <a href="#booking" class="service-cta btn-service-book" data-service="cosmetic">Book Consultation &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before & After Gallery -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Smile Transformations</h2>
+                <p>See real, untouched clinical results from our actual patient database.</p>
+            </div>
+            <div class="gallery-wrapper">
+                <!-- Interactive Comparison Slider -->
+                <div class="comparison-slider-container">
+                    <div class="comparison-slider">
+                        <!-- Before Image -->
+                        <div class="image-before">
+                            <span class="label">Before Treatment</span>
+                        </div>
+                        <!-- After Image -->
+                        <div class="image-after">
+                            <span class="label">After Smile Makeover</span>
+                        </div>
+                        <input type="range" min="0" max="100" value="50" class="slider-handle-control" aria-label="Before and after slider">
+                        <div class="slider-divider-line"></div>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-nav-btn active" data-type="cosmetic">Porcelain Veneers</button>
+                    <button class="gallery-nav-btn" data-type="implants">Dental Implants</button>
+                    <button class="gallery-nav-btn" data-type="invisalign">Invisalign</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet The Specialists -->
+    <section id="doctors" class="doctors section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Led by Elite Dental Specialists</h2>
+                <p>Your smile is guided by board-certified specialists with over 35+ years of combined clinical expertise.</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doc-image doc-male"></div>
+                    <div class="doc-info">
+                        <h3>Dr. Robert Harrison, DDS</h3>
+                        <span class="doc-title">Chief Implant Surgeon & Prosthodontist</span>
+                        <p>Specialist in computer-guided implant dentistry and complex full-mouth reconstruction. Former Ivy League faculty member.</p>
+                        <div class="doc-creds">
+                            <span>Harvard Dental Alumnus</span>
+                            <span>Diplomate, ICOI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doc-image doc-female"></div>
+                    <div class="doc-info">
+                        <h3>Dr. Amanda Sterling, MDS</h3>
+                        <span class="doc-title">Lead Cosmetic Orthodontist</span>
+                        <p>Top 1% Invisalign Elite specialist focusing on modern orthodontic treatments and aesthetic veneer integration.</p>
+                        <div class="doc-creds">
+                            <span>Member, AACD</span>
+                            <span>Penn Dental Alumna</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
+    </section>
 
-    <div class="copyright-wrap">
+    <!-- Patient Journey -->
+    <section id="journey" class="journey section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="copyright">Copyright © 2020 Scissors Salon. All Rights Reserved.</div>
+            <div class="section-header">
+                <h2>Our Seamless Patient Journey</h2>
+                <p>We've eliminated dental anxiety and wait times. Here is what to expect.</p>
+            </div>
+            <div class="journey-grid">
+                <div class="journey-step">
+                    <div class="step-num">01</div>
+                    <h3>Request Your Booking</h3>
+                    <p>Fill out our simple multi-step booking form. Select your preferred treatment interest and timing.</p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="credits">Site Credits: <a href="https://www.medialinkers.com/" target="_blank" rel="nofollow">MediaLinkers</a></div>
+                <div class="journey-step">
+                    <div class="step-num">02</div>
+                    <h3>Fast Chair Routing Call</h3>
+                    <p>Our front-desk coordinator contacts you within 15 minutes to route you directly to the correct specialist's chair.</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-num">03</div>
+                    <h3>Enjoy Your Consult</h3>
+                    <p>Experience a relaxed, advanced digital consultation with high-precision scans and customized smile plan.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Js -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- Jquery Fancybox -->
-    <script src="js/jquery.fancybox.min.js"></script>
-    <!-- general script file -->
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/script.js"></script>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Patients Say</h2>
+                <p>Over 1,200+ 5-star reviews from happy patients who regained their confidence.</p>
+            </div>
+            <div class="testimonial-layout">
+                <div class="testimonial-large-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"I had extreme dental anxiety, but the specialists here changed everything for me. The implants look so natural that people don't even know. Plus, the 0% financing option made it totally affordable. Best medical experience ever!"</p>
+                    <div class="patient">
+                        <div class="avatar">EB</div>
+                        <div>
+                            <h4>Eleanor Vance</h4>
+                            <span>Dental Implant Patient</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-side-grid">
+                    <div class="testimonial-side-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Invisalign was so easy here. The 3D scan preview matched the final result perfectly."</p>
+                        <h4>Marcus Chen</h4>
+                    </div>
+                    <div class="testimonial-side-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Veneers were pain-free and my smile is perfect now. Highly recommended clinic!"</p>
+                        <h4>Sophia Alessi</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="booking section">
+        <div class="container booking-grid">
+            <div class="booking-promo">
+                <h2>Get Started on Your Dream Smile</h2>
+                <p class="promo-text">Start your dental journey with us. Fill out this brief form to hold your priority scheduling slot. Our specialists are on-duty and routing is completed in real-time.</p>
+                
+                <div class="highlight-box">
+                    <h4>🔒 Privacy Guarded</h4>
+                    <p>We respect your data. Your info is only used to set up your appointment and follow-up.</p>
+                </div>
+
+                <div class="booking-incentives">
+                    <div class="inc-item">✓ Real-time specialist chair assignment</div>
+                    <div class="inc-item">✓ Zero obligation clinical consult</div>
+                    <div class="inc-item">✓ Full insurance evaluation included</div>
+                </div>
+            </div>
+
+            <!-- Multi-step Form -->
+            <div class="form-card" id="bookingFormCard">
+                <div class="form-progress">
+                    <div class="progress-bar-fill" id="progressBar"></div>
+                </div>
+                <div class="step-indicator" id="stepIndicator">Step 1 of 3: Treatment Selection</div>
+
+                <form id="multiStepForm" novalidate>
+                    <!-- STEP 1: Treatment Interest -->
+                    <div class="form-step active" data-step="1">
+                        <h3>Select Your Desired Treatment</h3>
+                        <p class="step-desc">This helps us route you to the correct specialist's chair.</p>
+                        
+                        <div class="treatment-selection-grid">
+                            <label class="treatment-option">
+                                <input type="radio" name="treatment" value="implants" required>
+                                <span class="option-card">
+                                    <span class="option-icon">🦷</span>
+                                    <span class="option-title">Dental Implants</span>
+                                    <span class="option-desc">Single day to full arch replacements</span>
+                                </span>
+                            </label>
+                            <label class="treatment-option">
+                                <input type="radio" name="treatment" value="invisalign">
+                                <span class="option-card">
+                                    <span class="option-icon">😁</span>
+                                    <span class="option-title">Invisalign®</span>
+                                    <span class="option-desc">Invisible clear teeth aligners</span>
+                                </span>
+                            </label>
+                            <label class="treatment-option">
+                                <input type="radio" name="treatment" value="cosmetic">
+                                <span class="option-card">
+                                    <span class="option-icon">✨</span>
+                                    <span class="option-title">Cosmetic Smile Makeover</span>
+                                    <span class="option-desc">Porcelain veneers & whitening</span>
+                                </span>
+                            </label>
+                            <label class="treatment-option">
+                                <input type="radio" name="treatment" value="general">
+                                <span class="option-card">
+                                    <span class="option-icon">🏥</span>
+                                    <span class="option-title">General Dentistry</span>
+                                    <span class="option-desc">Checkups, cleanings & hygiene</span>
+                                </span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-primary btn-next" id="btnNextStep1">Next: Contact Info &rarr;</button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: Contact Details (Lead Abandonment Capture Point) -->
+                    <div class="form-step" data-step="2">
+                        <h3>Tell Us About You</h3>
+                        <p class="step-desc">Our front-desk team needs this to finalize routing options.</p>
+                        
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                            <span class="error-msg">Please enter your name.</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
+                            <span class="error-msg">Please enter a valid phone number.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            <span class="error-msg">Please enter a valid email address.</span>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-secondary-outline btn-prev">&larr; Back</button>
+                            <button type="button" class="btn btn-primary btn-next" id="btnNextStep2">Next: Appointment Preference &rarr;</button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: Timing Preference & Submit -->
+                    <div class="form-step" data-step="3">
+                        <h3>Schedule Preference</h3>
+                        <p class="step-desc">Pick a time window that suits your schedule.</p>
+                        
+                        <div class="form-group">
+                            <label for="preferredDate">Preferred Date</label>
+                            <input type="date" id="preferredDate" name="preferredDate">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferredTime">Preferred Time Window</label>
+                            <select id="preferredTime" name="preferredTime">
+                                <option value="morning">Morning (8:00 AM - 12:00 PM)</option>
+                                <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                                <option value="evening">Late Afternoon (4:00 PM - 6:00 PM)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-secondary-outline btn-prev">&larr; Back</button>
+                            <button type="submit" class="btn btn-primary" id="btnFormSubmit">Request Priority Booking</button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Success Box -->
+                <div class="success-box" id="successBox">
+                    <div class="success-icon">✓</div>
+                    <h3>Appointment Requested!</h3>
+                    <p>Thank you. Your request has been routed to our clinical desk. A specialist care coordinator will call you back within 15 minutes.</p>
+                    <button type="button" class="btn btn-primary" id="btnResetForm">Book Another Appointment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Objections & FAQs</h2>
+                <p>Everything you need to know before stepping into our clinic.</p>
+            </div>
+            <div class="faq-accordion-wrapper">
+                <div class="faq-item">
+                    <button class="faq-question">How does routing patients to the right chair work?</button>
+                    <div class="faq-answer">
+                        <p>We analyze your treatment interest during booking. Patients looking for implants are automatically scheduled with Dr. Harrison (implant specialist), whereas Invisalign bookings go directly to Dr. Sterling (orthodontist). This cuts out diagnostic delays and gets you to the right chair instantly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What are your financing and payment options?</button>
+                    <div class="faq-answer">
+                        <p>We offer 0% interest-free financing plans for up to 24 months. We also accept all major health insurance providers and will handle all pre-authorizations for you so you know your exact out-of-pocket costs upfront.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long does a dental implant procedure take?</button>
+                    <div class="faq-answer">
+                        <p>Using our state-of-the-art computer-guided surgery, we can place a custom implant and temporary crown in just one appointment. The healing process typically takes a few weeks, after which the permanent crown is fitted.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer pain-free treatments?</button>
+                    <div class="faq-answer">
+                        <p>Yes. We use advanced computer-controlled anesthesia (The Wand) and local sedatives to make the procedure completely pain-free. For patients with high dental anxiety, we also offer nitrous oxide (laughing gas) and conscious oral sedation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>Dental<span>Care</span></h2>
+                <p>Specialist-led advanced dental care for lifelong confidence.</p>
+                <div class="hours-info">
+                    <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+                    <p>Sat - Sun: Emergencies Only</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p>📍 123 Smile Boulevard, Health City</p>
+                <p>📧 info@dentalcareclinic.com</p>
+                <p>📞 (123) 456-7890</p>
+            </div>
+            <div class="footer-legal">
+                <h3>Legal</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <p class="copyright">&copy; 2026 DentalCare Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
